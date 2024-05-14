@@ -10,5 +10,5 @@ def home(request):
 def form(request):
     if request.method == "POST":
         form = form(request.POST)
-        user = form.save()
+        form = form.save()
     return render(request, 'flight/form.html')
