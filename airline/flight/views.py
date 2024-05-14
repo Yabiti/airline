@@ -9,5 +9,5 @@ def home(request):
 
 def form(request):
     if request.method == "POST":
-
+        form = form(request.POST)
     return render(request, 'flight/form.html')
