@@ -12,3 +12,7 @@ def form(request):
         form = form(request.POST)
         form = form.save()
     return render(request, 'flight/form.html')
+
+def insert_data(request):
+    if request.method == "POST":
+        FirstName = 
