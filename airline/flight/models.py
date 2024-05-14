@@ -10,5 +10,5 @@ class Flight(models.Model):
         return f"{self.id}: {self.origin} to {self.destination}" 
 
 class form(models.Model):
-    firstname = models.CharField(max_length=12)
-    lastname = models.CharField(max_length=12)
+    FirstName = models.CharField(max_length=12)
+    LastName = models.CharField(max_length=12)
