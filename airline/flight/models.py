@@ -8,3 +8,7 @@ class Flight(models.Model):
 
     def __str__(self):
         return f"{self.id}: {self.origin} to {self.destination}" 
+
+class form(models.Model):
+    firstname = models.CharField(max_length=12)
+    lastname = models.CharField(max_length=12)
