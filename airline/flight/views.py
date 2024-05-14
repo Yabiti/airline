@@ -15,4 +15,4 @@ def form(request):
 
 def insert_data(request):
     if request.method == "POST":
-        FirstName = 
+        FirstName = request.post['first name']
