@@ -2,9 +2,10 @@
 
 {% block body %}
     <h1>Register Form</h1>
-    <form>
+    <form action="{% url 'home' %}" method="post">
+        {% csrf_token %}
         <input type="text" name="form">
         <input type="submit">
     </form>
-    <a href="{% url 'flight:home' %}">Back to home page</a>
+    <a href="{% url 'home' %}">Back to home page</a>
 {% endblock %}
