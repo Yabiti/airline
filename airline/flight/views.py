@@ -8,3 +8,7 @@ def home(request):
 
 def form(request):
     return render(request, 'flight/form.html')
+
+def insertuser(request):
+    FirstName = request.post['fn']
+    LastName = request.post['ln']
