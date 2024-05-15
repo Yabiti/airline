@@ -5,7 +5,7 @@
     <form class="form" action="{% url 'home' %}" method="post">
         {% csrf_token %}
         FirstName: <input type="text" name="first name"></br>
-        LastName: <input type="text" name="last name"></br>
+        LastName: <input type="text" name="last name" required></br>
         <label for="sex">
             <input type="radio" name="sex" value="male" required>
         </label>
