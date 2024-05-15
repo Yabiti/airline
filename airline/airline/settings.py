@@ -83,7 +83,13 @@ DATABASES = {
 
 DATABASES = {
     'default': {
-        'ENGINE':
+        'ENGINE': 'django.db.backends.mysql',
+        "NAME": 'Flight',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '3306'
+
     }
 }
 
