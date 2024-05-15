@@ -10,5 +10,5 @@ def form(request):
     return render(request, 'flight/form.html')
 
 def insertuser(request):
-    FirstName = request.post['fn']
-    LastName = request.post['ln']
+    FirstName = request.post['first name']
+    LastName = request.post['last name']
