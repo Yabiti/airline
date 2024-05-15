@@ -1,6 +1,9 @@
-{% extends 'flight/layout.html' %}
+{% load static %}
 
 {% block body %}
+    <head>
+        <a href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
+    </head>
     <body>
         <div id="banner">
             <div class="navbar">
@@ -9,7 +12,18 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
+            <div class="box">
+                <img src="ha.jpg">
+                <p>Book your flight ticket from hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+            </div>
+            <div class="box">
+                <img src="mekelle.jpg">
+                <p>Book your flight ticket from hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+            </div>
+            <div class="box">
+                <img src="dire.jpg">
+                <p>Book your flight ticket from hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+            </div>
     </body>
     <a href="{% url 'form' %}">Register</a>
 {% endblock %}
- 
