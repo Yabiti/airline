@@ -7,12 +7,4 @@ def home(request):
     return render(request, 'flight/home.html')
 
 def form(request):
-    if request.method == "POST":
-        form = form(request.POST)
-        form = form.save()
     return render(request, 'flight/form.html')
-
-def insert_data(request):
-    if request.method == "POST":
-        FirstName = request.post['first name']
-        LastName = request.post['last name']
