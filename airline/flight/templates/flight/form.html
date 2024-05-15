@@ -2,7 +2,7 @@
 
 {% block body %}
     <h1>Register Form</h1>
-    <form class="form" action="{% url 'home' %}" method="post">
+    <form class="form" action="form" method="post">
         {% csrf_token %}
         FirstName: <input type="text" name="first name" required></br>
         LastName: <input type="text" name="last name" required></br>
