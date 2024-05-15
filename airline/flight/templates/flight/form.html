@@ -4,7 +4,7 @@
     <h1>Register Form</h1>
     <form class="form" action="insertuser" method="post">
         {% csrf_token %}
-        FirstName: <input type="text" name="first name" value="fn" required></br>
+        FirstName: <input type="text" name="first name"  required></br>
         LastName: <input type="text" name="last name" value="ln" required></br>
         <label><b>Male</b></label>
             <input type="radio" name="sex" value="male" required>
