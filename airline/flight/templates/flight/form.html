@@ -1,8 +1,9 @@
 {% extends 'flight/layout.html' %}
-
+{% load static %}
 {% block body %}
-    <h1>Register Form</h1>
+    <link href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
     <form class="form" action="../insertuser/" method="post">
+        <h2>Registeration Form</h2>
         {% csrf_token %}
         FirstName: <input type="text" name="first name"  required></br>
         LastName: <input type="text" name="last name"  required></br>

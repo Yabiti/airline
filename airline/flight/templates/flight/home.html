@@ -1,10 +1,12 @@
+{% extends 'flight/layout.html' %}
 {% load static %}
-
 {% block body %}
     <head>
-        <a href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
+        <title>Ethiopian Airlines</title>
+        <link href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
     </head>
     <body>
+        <h1>Welcome To Ethiopian Airlines</h1>
         <div id="banner">
             <div class="navbar">
             <ul>
@@ -12,17 +14,42 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
+            <h2>where you want to go</h2>
             <div class="box">
                 <img src="ha.jpg">
-                <p>Book your flight ticket from hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+                <h3>Hawassa</h3>
+                <p>Book your flight ticket from Hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+                <a href="{% url 'form' %}">Register</a>
             </div>
             <div class="box">
-                <img src="mekelle.jpg">
-                <p>Book your flight ticket from hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+                <img src="ha.jpg">
+                <h3>Dire Dawa</h3>
+                <p>Book your flight ticket from Dire Dawa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+                <a href="{% url 'form' %}">Register</a>
             </div>
             <div class="box">
-                <img src="dire.jpg">
-                <p>Book your flight ticket from hawassa to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+                <img src="ha.jpg">
+                <h3>Mekkelle</h3>
+                <p>Book your flight ticket from Mekelle to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+                <a href="{% url 'form' %}">Register</a>
+            </div>
+            <h2>our history</h2>
+            <div class="history">
+                <img src="ha.jpg">
+                <p>Book your flight ticket from Mekelle to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+            </div>
+            <div class="history">
+                <img src="ha.jpg">
+                <p>Book your flight ticket from Mekelle to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+            </div>
+            <div class="history">
+                <img src="ha.jpg">
+                <p>Book your flight ticket from Mekelle to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
+            </div>
+            <div class="contact">
+                <img src="ha.jpg">
+                <h3>contact our call center</h3>
+                <p>Book your flight ticket from Mekelle to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
             </div>
     </body>
     <a href="{% url 'form' %}">Register</a>

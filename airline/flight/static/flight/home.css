@@ -1,11 +1,33 @@
-body{
-    font-family: sans-serif;
+h1 {
+    padding: 200px;
+    font-size: 70px;
+}
+h2 {
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.box {
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.history {
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
 }
 
 img {
-    width: 250px;
-    height: 100px;
+    width: 350px;
 }
-.box {
-    display: inline-block;
+
+.form {
+    text-align: center;
+    justify-content: justify;
+    padding: 90px;
 }
