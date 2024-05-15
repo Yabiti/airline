@@ -6,6 +6,9 @@
         {% csrf_token %}
         FirstName: <input type="text" name="first name"></br>
         LastName: <input type="text" name="last name"></br>
+        <label for="sex">
+            <input type="radio" name="sex" value="male" required>
+        </label>
         <input type="submit">
     </form>
     <a href="{% url 'home' %}">Back to home page</a>
