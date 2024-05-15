@@ -7,4 +7,5 @@ class Flight(models.Model):
     FirstName = models.CharField(max_length=15)
     LastName = models.CharField(max_length=15)
 
-    
+    class Meta:
+        db_table = "Flight"
