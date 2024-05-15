@@ -6,7 +6,7 @@ from django.db import models
 class Flight(models.Model):
     origin = models.CharField(max_length=64, blank=False, null=True)
     destination = models.CharField(max_length=55, blank=False, null=True)
-    origin = models.IntegerField()
+    origin = models.IntegerField(max_length=3,null=True)
     FirstName = models.CharField(max_length=15, blank=False, null=True)
     LastName = models.CharField(max_length=15, blank=False, null=True)
 
