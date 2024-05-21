@@ -10,7 +10,7 @@ html{
 }
 
 .box {
-    width: 350px;
+    width: 300px;
     display: inline-block;
     margin: 10px;
 
@@ -23,7 +23,7 @@ html{
 }
 
 img {
-    width: 350px;
+    width: 300px;
 }
 
 .form {
