@@ -1,8 +1,43 @@
-.navbar ul{
-    display: inline-block;
+.navbar {
+    width: 90%;
+    margin: 0;
+    display: flex;
+    padding: 35px 0;
+    align-items: center;
     justify-content: space-between;
-    text-align: end;
+    direction: rtl;
+}
 
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    color:black;
+    
+}
+.navbar ul li a{
+    text-align: none;
+    color: #fff;
+    text-transform: uppercase;
+    color:black;
+
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
 }
 
 h1 {
