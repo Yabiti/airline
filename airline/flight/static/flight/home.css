@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .navbar {
     width: 90%;
     margin: 0;
