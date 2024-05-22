@@ -1,7 +1,16 @@
+.navbar ul{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: end;
+
+}
+
 h1 {
-    padding: 200px;
+    text-align: center;
+    padding: 150px;
     font-size: 70px;
 }
+
 h2 {
     text-align: center;
 }
@@ -13,17 +22,24 @@ html{
     width: 300px;
     height: 50px;
     display: inline-block;
-    margin: 10px;
+    margin: 50px;
 
 }
-
-.history {
-    width: 300px;
-    display: inline-block;
-}
-
 .form {
     text-align: center;
-    justify-content: justify;
-    padding: 90px;
+    padding: 100px;
+    margin: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+img {
+    width: 350px;
+    height: auto;
+}
+
+input{
+    font-size: 1.5em;
+    line-height: 20px;
+    margin: 10px;
+    background: transparent;
+
 }

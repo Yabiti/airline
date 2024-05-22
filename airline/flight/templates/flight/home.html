@@ -6,14 +6,14 @@
         <link href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
     </head>
     <body>
-        <h1>Welcome To Ethiopian Airlines</h1>
-        <div id="banner">
-            <div class="navbar">
+        <div class="navbar">
             <ul>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
+            </div>
+            <h1>Welcome To Ethiopian Airlines</h1>
             <h2>where you want to go</h2>
             <div class="box">
                 <img src="{% static 'ba.jpg' %}">
@@ -46,8 +46,8 @@
                 <a href="{% url 'form' %}">Book Now</a>
             </div>
             <div class="box">
-                <img src="{% static 'ba.jpg' %}">
-                <h3>Mekkelle</h3>
+                <img src="{% static 'la.jpg' %}">
+                <h3>Lallibela</h3>
                 <p>Book your flight ticket from Mekelle to Addis Ababa<br>immerse yourself in Ethiopian cluture and hospita;ity</p>
                 <a href="{% url 'form' %}">Book Now</a>
             </div>
