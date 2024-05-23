@@ -60,9 +60,10 @@ html{
 
 .box {
     width: 300px;
-    height: auto;
+    height: 200px;
     display: inline-block;
     margin: 50px;
+    box-shadow: 10px 10px green;
 }
 
 .form {
