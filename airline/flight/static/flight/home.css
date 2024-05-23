@@ -1,12 +1,8 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
 }
 
-body{
-    background-color: #f0f0f0;
-}
 .navbar {
     width: 90%;
     margin: 0;
@@ -29,7 +25,7 @@ body{
     text-align: none;
     color: #fff;
     text-transform: uppercase;
-    color:black;
+    color:#fff;
 
 }
 
@@ -63,19 +59,16 @@ html{
 }
 
 .box {
-    box-shadow: 0 15px 40px rgba(0,0,0,.5);
     width: 300px;
-    height: 50px;
+    height: auto;
     display: inline-block;
     margin: 50px;
-
 }
 
 .form {
     text-align: center;
     padding: 100px;
     margin: 10px;
-    box-shadow: 0 15px 40px rgba(0,0,0,.5);
 }
 img {
     width: 350px;
@@ -89,4 +82,14 @@ input{
     margin: 10px;
     background: transparent;
 
+}
+
+a {
+    display: inline-block;
+    padding:8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 16px;
+    color: #fff;
 }
