@@ -6,8 +6,6 @@ from django.db import models
 class Flight(models.Model):
     origin = models.CharField(max_length=64, blank=False, null=True)
     destination = models.CharField(max_length=55, blank=False, null=True)
-
-class passenger(models.Model):
     FirstName = models.CharField(max_length=15, blank=False, null=True)
     LastName = models.CharField(max_length=15, blank=False, null=True)
 

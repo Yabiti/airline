@@ -93,3 +93,15 @@ a {
     margin-top: 16px;
     color: #fff;
 }
+
+.text {
+    position: absolute;
+    margin-top: -3%;
+    color: #fff;
+}
+
+.textt {
+    position: absolute;
+    margin-top: -3%;
+    color: black;
+}
