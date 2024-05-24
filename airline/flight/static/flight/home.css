@@ -63,7 +63,8 @@ html{
     height: 200px;
     display: inline-block;
     margin: 50px;
-    box-shadow: 10px 10px green;
+    box-shadow: 0 10px 45px  #009688;
+    box-sizing: border-box;
 }
 
 .form {
@@ -93,4 +94,9 @@ a {
     border-radius: 5px;
     margin-top: 16px;
     color: #fff;
+}
+.co {
+    padding: 50px;
+    box-shadow: 0 10px 45px  #009688;
+    box-sizing: border-box;
 }
