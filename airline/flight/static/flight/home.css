@@ -3,6 +3,9 @@
     padding: 0%;
 }
 
+body {
+    background-image: url(../images/aa.jpg);
+}
 .navbar {
     width: 90%;
     margin: 0;
@@ -66,9 +69,20 @@ html{
 }
 
 .form {
+    width: 380px;
+    height: 300px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+
+button {
+    width: 150px;
+    height: 30px;
     text-align: center;
-    padding: 100px;
-    margin: 10px;
+    margin-left: 70px;
 }
 img {
     width: 350px;
@@ -103,5 +117,4 @@ a {
 .textt {
     position: absolute;
     margin-top: -3%;
-    color: black;
 }
