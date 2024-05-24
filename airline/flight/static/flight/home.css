@@ -63,8 +63,6 @@ html{
     height: 200px;
     display: inline-block;
     margin: 50px;
-    box-shadow: -1px 0 10px #0000;
-    background-color: #333;
 }
 
 .form {
@@ -94,9 +92,4 @@ a {
     border-radius: 5px;
     margin-top: 16px;
     color: #fff;
-}
-.co {
-    padding: 50px;
-    box-shadow: 0 10px 45px  #009688;
-    box-sizing: border-box;
 }
