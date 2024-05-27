@@ -5,6 +5,8 @@
     <form class="form" action="../insertuser/" method="post">
         <h2>Registeration Form</h2>
         {% csrf_token %}
+        Origin: <input type="text" name="Origin"  required></br>
+        Destination: <input type="text" name="Destination"  required></br>
         FirstName: <input type="text" name="first name"  required></br>
         LastName: <input type="text" name="last name"  required></br>
         <label><b>Male</b></label>
