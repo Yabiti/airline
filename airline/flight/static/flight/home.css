@@ -122,3 +122,8 @@ a {
     position: absolute;
     margin-top: -3%;
 }
+
+p ,h4 {
+    text-align: center;
+    flex-basis: 35%;
+}
