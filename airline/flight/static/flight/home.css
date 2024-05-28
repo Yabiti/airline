@@ -63,18 +63,18 @@ html{
 
 .box {
     width: 300px;
-    height: 200px;
+    height: 300x;
     display: inline-block;
-    margin: 50px;
+    margin: 40px;
 }
 
 .form {
     width: 390px;
-    height: 300px;
+    height: 400px;
     position: relative;
     margin: 2% auto;
     background: rgba(0,0,0,0.3);
-    padding: 30px;
+    padding: 50px;
     overflow: hidden;
 }
 
