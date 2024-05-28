@@ -9,6 +9,9 @@ def home(request):
 def form(request):
     return render(request, 'flight/form.html')
 
+def lalibella(request):
+    return render(request, 'flight/lalibella.html')
+
 def insertuser(request):
     FirstName = request.post['first name']
     LastName = request.post['last name']
