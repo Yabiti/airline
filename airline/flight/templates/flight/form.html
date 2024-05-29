@@ -2,6 +2,15 @@
 {% load static %}
 {% block body %}
     <link href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
+    <style>
+        *{
+             background-image: url('{% static "flight/gg.jpg" %}');
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+
+         }
+     </style>
     <form class="form" action="../insertuser/" method="post">
         <h2>Registeration Form</h2>
         {% csrf_token %}
