@@ -14,7 +14,16 @@
         <label><b>Female</b></label>
             <input type="radio" name="Female" value="Female" required></br>
             pay: <input type="number" required>
-        <button type="submit">Submit</button>
+        <button id="button"type="submit">Submit</button>
+        <div id="message"></div>
     </form>
-    <a href="{% url 'home' %}">Back to home page</a>
+    <script>
+        // Get The button Element
+        const button = document.getElementById('button');
+        // add a click event listener to the button
+        button.addEventListener('click', function(){
+            const message = document.getElementById('message');
+            message.textcontent = "congrat's!";
+        });
+    </script>
 {% endblock %}
