@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
+/* styling href*/
 .navbar {
     width: 90%;
     margin: 0;
@@ -56,6 +57,7 @@ h2 {
 html{
     scroll-behavior: smooth;
 }
+/* styling box*/
 
 .box {
     width: 300px;
@@ -63,7 +65,7 @@ html{
     display: inline-block;
     margin: 40px;
 }
-
+/*styling form table*/
 .form {
     width: 390px;
     height: 400px;
@@ -74,12 +76,14 @@ html{
     overflow: hidden;
 }
 
+/*styling button*/
 button {
     width: 150px;
     height: 30px;
     text-align: center;
     margin-left: 70px;
 }
+/*styling image*/
 img {
     width: 350px;
     height: 260px;
