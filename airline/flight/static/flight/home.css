@@ -2,10 +2,10 @@
     margin: 0%;
     padding: 0%;
 }
-
 body {
-    background-image: url(../images/aa.jpg);
+    background: url("static/98.jpg");
 }
+
 .navbar {
     width: 90%;
     margin: 0;
@@ -63,7 +63,7 @@ html{
 
 .box {
     width: 300px;
-    height: 300x;
+    height: 250px;
     display: inline-block;
     margin: 40px;
 }
@@ -86,7 +86,7 @@ button {
 }
 img {
     width: 350px;
-    height: auto;
+    height: 260px;
     border-radius: 5px;
     transition: transform 0.5s;
 }
@@ -121,8 +121,4 @@ a {
 .textt {
     position: absolute;
     margin-top: -3%;
-}
-
-.lal{
-    display: flex;
 }
