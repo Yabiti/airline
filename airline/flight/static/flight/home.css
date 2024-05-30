@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
-/* styling href*/
+/* styling listed items*/
 .navbar {
     width: 90%;
     margin: 0;
@@ -82,6 +82,7 @@ button {
     height: 30px;
     text-align: center;
     margin-left: 70px;
+    color: #fff;
 }
 /*styling image*/
 img {
@@ -98,7 +99,8 @@ input{
     font-size: 1.5em;
     line-height: 20px;
     margin: 10px;
-    background: transparent;
+    color: #fff;
+
 
 }
 

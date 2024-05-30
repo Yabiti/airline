@@ -1,6 +1,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 from .models import Flight
+
 # Create your views here.
 
 # creating home page
@@ -17,4 +20,5 @@ def insertuser(request):
     LastName = request.post['last name']
     x = Flight(FirstName=FirstName,LastName=LastName)
     x.save()
-    return render(request, 'flight/home.html')
+    return HttpResponseRedirect(reverse("home"))
+ 
