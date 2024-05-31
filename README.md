@@ -22,4 +22,3 @@ My first challenge was creating the ideas and figuring out how to implement them
 
 This project was a great experience and very stressful, but it taught me to be strong and not to give up on these kinds of projects. I'm excited to see where my learning journey takes me next!
 
-![Project Image](https://placeimg.com/640/480/tech)  <!-- Replace with your project image URL -->
