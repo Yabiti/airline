@@ -2,6 +2,7 @@
 {% load static %}
 {% block body %}
     <head>
+        <meta name="viewport" content="width-device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>Ethiopian Airlines</title>
         <link href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
         <style>
@@ -19,18 +20,18 @@
         <div class="navbar">
             <ul>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#Book Now">Services</a></li>
-                <li><a href="#about">Book Now</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Book Now">Book Now</a></li>
             </ul>
         </div>
             <h1>Welcome To Ethiopian Airlines</h1>
             <h2>where you want to go</h2>
-            <div class="box">
+            <div id="Services"class="box">
                 <img src="{% static 'ha.jpg' %}">
                     <div class="text"><h3>Hawassa</h3></div>
                 <a href="{% url 'form' %}">Book Now</a>
             </div>
-            <div class="box">
+            <div class="box" >
                 <img src="{% static 'ba.jpg' %}">
                 <div class="text"><h3>Bahir Dar</h3></div>
                 <a href="{% url 'form' %}">Book Now</a>
@@ -58,7 +59,7 @@
                 </div>
                 <a href="{% url 'form' %}">Book Now</a>
             </div>
-            <div class="box">
+            <div id="contact"class="box">
                 <img src="{% static 'aa.jpg' %}">
                 <div class="textt">
                     <h3>contact our call center 8141</h3>

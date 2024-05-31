@@ -82,7 +82,7 @@ button {
     height: 30px;
     text-align: center;
     margin-left: 70px;
-    color: #fff;
+    color: #333;
 }
 /*styling image*/
 img {
@@ -99,7 +99,6 @@ input{
     font-size: 1.5em;
     line-height: 20px;
     margin: 10px;
-    color: #fff;
 
 
 }
@@ -117,10 +116,33 @@ a {
 .text {
     position: absolute;
     margin-top: -3%;
-    color: #fff;
+
 }
 
 .textt {
     position: absolute;
     margin-top: -3%;
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .navbar{
+        font-size: 15px;
+        line-height: 5px;
+    }
+    .box {
+        font-size: 15px;
+        line-height: 5px;
+    }
+    img{
+        width: 300px;
+        height: 260px;
+    }
+
 }

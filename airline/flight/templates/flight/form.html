@@ -2,26 +2,13 @@
 {% load static %}
 {% block body %}
     <link href="{% static 'flight/home.css' %}" rel="stylesheet"></a>
-    <style>
-        *{
-             background-image: url('{% static "flight/gg.jpg" %}');
-             background-size: cover;
-             background-repeat: no-repeat;
-             background-position: center;
-
-         }
-     </style>
-    <form class="form" action="../insertuser/" method="post">
+    <form class="form"  action="{% url 'insertuser' %}" method="post">
         <h2 style="color: aliceblue;">Registeration Form</h2>
         {% csrf_token %}
         Origin: <input type="text" name="Origin"  required></br>
         Destination: <input type="text" name="Destination"  required></br>
         FirstName: <input type="text" name="first name"  required></br>
         LastName: <input type="text" name="last name"  required></br>
-        <label><b>Male</b></label>
-            <input type="radio" name="sex" value="male" required>
-        <label><b>Female</b></label>
-            <input type="radio" name="Female" value="Female" required></br>
             pay: <input type="number" required>
         <button id="button"type="submit">Submit</button>
     </form>

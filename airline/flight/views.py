@@ -1,7 +1,5 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.http import HttpResponseRedirect
-from django.urls import reverse
 from .models import Flight
 
 # Create your views here.
@@ -16,9 +14,8 @@ def form(request):
 
 # userinput
 def insertuser(request):
-    FirstName = request.post['first name']
-    LastName = request.post['last name']
-    x = Flight(FirstName=FirstName,LastName=LastName)
+    FirstName = request.POST['first name']
+    LastName = request.POST['last name']
+    x = Flight(FirstName=FirstName, LastName=LastName)
     x.save()
-    return HttpResponseRedirect(reverse("home"))
- 
+    return render(request, 'flight/home.html')
