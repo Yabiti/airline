@@ -11,7 +11,7 @@ class Flight(models.Model):
 # return strings
     def __str__(self):
         return f"{self.FirstName}: {self.LastName}: {self.Origin} to {self.Destination}"
-# checking userinput is_valid or not
+# checking userinput is_valid or not 
     def insertuser(self):
         return self.Origin != self.Destination
 # creating table using db
